@@ -11,7 +11,7 @@ Para isso já deixamos algumas tabelas prontas para vocês não precisarem se pr
 ## 🔗 Postman
 https://documenter.getpostman.com/view/
 ## 🔗 Deploy
-https://.onrender.com
+https://lama3.onrender.com
 
 ## 🚀 Tecnologias utilizadas
 -  Node.js
@@ -26,13 +26,13 @@ https://.onrender.com
 Clone o projeto via HTTPS
 
 ```bash
-  git clone https://github.com/future4code/Jemison-.git
+  git clone https://github.com/future4code/Jemison-LAMA3.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd Jemison-
+  cd Jemison-LAMA3
 ```
 
 ```bash
