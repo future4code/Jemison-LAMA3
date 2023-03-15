@@ -4,7 +4,7 @@ Como você deve saber muito bem, o nosso querido chefinho Astrodev é uma pessoa
 Para isso já deixamos algumas tabelas prontas para vocês não precisarem se preocupar com a modelagem do banco. Deixamos também um template do projeto já com a estrutura da parte de usuários. Vocês podem usá-las a vontade, mas, se quiser fazer do zero sem esse auxílio, também pode.
 
 
-##  <h1 align="center">LAMA</h1>
+##  <h1 align="center">🎶LAMA</h1>
 
 ## 📝 Descrição
 
