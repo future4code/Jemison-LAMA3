@@ -1,19 +1,17 @@
 import { BaseDatabase } from "../BaseDatabase";
 
-class Migrations extends BaseDatabase{
-    execute = async() =>{
-        try{
-            console.log("Criando as tabelas")
-            await this.createTables();
-            console.log("Tabelas criadas com sucesso")
-        }catch(error:any){
-            console.log(error.message)
-        }
+class Migrations extends BaseDatabase {
+  execute = async () => {
+    try {
+      console.log("Criando as tabelas");
+      await this.createTables();
+      console.log("Tabelas criadas com sucesso");
+    } catch (error: any) {
+      console.log(error.message);
     }
-    createTables = async()=>{
-        await BaseDatabase.connection.raw(`
-
-        //DROP TABLE IF EXISTS Lama_Bandas; //Lama_Shows, Lama_Users
+  };
+  createTables = async () => {
+    await BaseDatabase.connection.raw(`
 
         CREATE TABLE IF NOT EXISTS Lama_Bandas (
             id VARCHAR(255) PRIMARY KEY,
@@ -47,9 +45,9 @@ class Migrations extends BaseDatabase{
             password VARCHAR(255) NOT NULL,
             role VARCHAR(255) NOT NULL DEFAULT "NORMAL"
           );
-        `)
-    }
+        `);
+  };
 }
-const migrations = new Migrations()
+const migrations = new Migrations();
 
-migrations.execute()
+migrations.execute();
