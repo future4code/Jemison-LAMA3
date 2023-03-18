@@ -1,9 +1,9 @@
 ##  <h1 align="center">🎶LAMA</h1>
 
 ## 📝 Descrição
-
+Festival de bandas famosas, com duração de três dias. As bandas começam a tocar às 8h e terminam às 23h. Existem dois tipos diferentes de funções de usuário: ADMIN e NORMAL. Somente usuários ADMIN podem registrar bandas e shows.
 ## 🔗 Postman
-https://documenter.getpostman.com/view/
+https://documenter.getpostman.com/view/22349146/2s93JzLg5g
 ## 🔗 Deploy
 https://lama3.onrender.com
 
@@ -32,11 +32,3 @@ Entre no diretório do projeto
 ```bash
   npm install
 ```
-
-
-
-
-# Labenu Music Awards
-Como você deve saber muito bem, o nosso querido chefinho Astrodev é uma pessoa com Networking incrível e ele conhece vários artistas estrelados. Além disso, ele também é um grande ~~megalomaníaco~~ visionário e está planejando fazer um grande evento: o **LAMA**, *Labenu Musical Awards*, um festival  com várias bandas famosas para a formatura da sua turma e, no final, vocês podem eleger a banda que mais gostaram! Entretanto, na opinião dele, vocês só serão merecedores se entregarem um sistema impecável que permita o gerenciamento completo desses shows.
-
-Para isso já deixamos algumas tabelas prontas para vocês não precisarem se preocupar com a modelagem do banco. Deixamos também um template do projeto já com a estrutura da parte de usuários. Vocês podem usá-las a vontade, mas, se quiser fazer do zero sem esse auxílio, também pode.
